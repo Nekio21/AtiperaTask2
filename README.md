@@ -1,7 +1,7 @@
 # GitHub Repositories API
 
 ## Description
-This application, built with Quarkus, fetches a list of public repositories for a given GitHub user, including the branches of each repository and their latest commit SHA. If the user does not exist, the API will return a 404 error with a relevant message.
+This application, built with SpringBoot, fetches a list of public repositories for a given GitHub user, including the branches of each repository and their latest commit SHA. If the user does not exist, the API will return a 404 error with a relevant message.
 
 ## API Endpoints
 
