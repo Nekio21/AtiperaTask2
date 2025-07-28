@@ -8,7 +8,7 @@ import umk.mat.jakuburb.AtiperaTask.git.model.github.RepositoryResponse;
 
 import java.util.List;
 
-@FeignClient(name="ReposClient", url="https://api.github.com/")
+@FeignClient(name="ReposClient", url="${github.api.url}")
 public interface RepositoryClient {
 
     @GetMapping("/users/{username}/repos")
